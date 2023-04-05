@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.titulo {
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color:#DDA0DD;
+}
+.myButton {
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family: 'Poppins', sans-serif;
+	font-size:15px;
+	padding:6px 24px;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+    text-decoration: none; 
+}
+.myButton:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+.myButton:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+.css-input { 
+    padding: 7px; 
+    font-size: 14px; 
+    border-color:#9400D3; 
+    color:#ac0000; 
+    border-radius:7px; 
+    border-style:outset; 
+    border-width:4px;
+}
+.logo {
+    width: 20%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+}
+.caixa1 {
+    display: flex;
+}
+.texto1 {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+}
+.fundoturmas {
+    background-color:#DA70D6;
+    border-radius: 20px;
+}
+.txtturma {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+}
+.turmas {
+}
+.class {
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 30px;
+}
+.fototxt {
+    text-align: center;
+    color:#4F4F4F;
+    font-family: 'Poppins', sans-serif;
+}
+.conferir {
+  box-shadow:inset 0px 1px 0px 0px #000000;
+	background:#C0C0C0;
+	background-color:;
+	border-radius:5px;
+	border:1px solid #ADD8E6;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #000000;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+.conferir:hover {
+	background:linear-gradient(to bottom, #c7c9c8 5%, #828282 100%);
+	background-color:#f6f6f6;
+}
+.conferir:active {
+	top:1px;
+}
+.final {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.imgturma {
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-top: 10px;
+    border: 7px white solid;
+    border-radius: 6px;
+}
+.consulta {
+    margin: auto;
+    padding: 50px;
+}
+.txtcons {
+    font-family: 'Poppins', sans-serif;
+}
+.txtemail {
+    text-decoration: underline black;
+    font-family: 'Poppins', sans-serif;
+}
+.email {
+    background-color:#DDA0DD;
+    color: #000000;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
